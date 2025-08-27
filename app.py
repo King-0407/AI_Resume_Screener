@@ -58,3 +58,4 @@ if uploaded_file:
         st.text_area("Analysis Output", result, height=400)
     except Exception as e:
         st.error(f"❌ Error during analysis: {e}")
+
